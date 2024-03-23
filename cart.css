@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D&display=swap');
+
+body {
+    font-family: 'K2D', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #668fa1;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #4387ab; /* สีพื้นหลัง */
+    border-bottom: 1px solid #a1887f; /* เส้นขอบด้านล่าง */
+    border-top: 1px solid #a1887f;
+}
+
+/* CSS สำหรับโลโก้ */
+#logo {
+    margin-bottom: 10px; /* การเพิ่มระยะห่างด้านล่างของ logo */
+}
+
+.logo {
+    text-decoration: none; /* ลบขีดเส้นใต้ข้อความของ logo */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* เพิ่มเงาให้กับข้อความ */
+    color: #D6C3CE; /* สีข้อความของ logo */
+    font-size: 45px; /* ขนาดตัวอักษรของ logo */
+}
+
+/*Cart*//* CSS สำหรับ Cart */
+/* CSS สำหรับ Cart และปุ่ม Save Receipt */
+#cart {
+    text-align: right;
+    border: 2px solid #D6C3CE; /* สีเส้นขอบ */
+    border-radius: 8px; /* รัศมีของมุม */
+    padding: 10px 20px; /* การเพิ่มช่องว่างรอบขอบ */
+}
+
+/* CSS สำหรับปุ่ม Save Receipt */
+#cart button {
+    background-color: #880e4f
+    ; /* สีพื้นหลังปุ่ม */
+    color: #fff; /* สีข้อความ */
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cart button :hover{
+    background-color: #880e4f;
+}
+
+/* CSS สำหรับไอคอนใน Cart */
+#cart i {
+    margin-right: 5px;
+}
+
+#search-menu {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#menu-search-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+
+#menu-search-button {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#menu-search-button:hover {
+    background-color: #0056b3;
+}
+
+
+
+/*Products*/
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    background-color: #b49494;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(41, 35, 35, 0.233);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+}
+
+.product img {
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.product h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.product h5 {
+    font-size: 14px;
+    margin-bottom: 10px;
+ 
+}
+
+.product button {
+    background-color: #14801b;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 8px 16px;
+    transition: background-color 0.3s;
+}
+
+.product button:hover {
+    background-color: #4072b3;
+}
+
+
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+th {
+    background-color: #f2f2f2;
+}
+.customer-info {
+    margin-bottom: 20px;
+}
+.customer-info label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.customer-info input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+.button-group {
+    text-align: center;
+}
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #49b3d0;
+}
